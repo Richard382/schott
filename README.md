@@ -1,2 +1,0 @@
-# schott
-online game 

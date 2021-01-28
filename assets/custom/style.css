@@ -1,0 +1,34 @@
+#start_form_panel
+{
+    display: flex;
+    background-position: bottom;
+     background-image: url("../../../assets/images/mbr-1920x1440.jpg");
+   
+}
+#start_form
+{
+    width:60%;
+    margin:auto;
+    padding: 35px 60px;
+    border-radius: 5px;
+    background:linear-gradient(45deg, #c4ea2c, #ff00c8);
+}
+.btn-start
+{
+    background-color: rgb(59, 56, 199);
+    color: aliceblue;
+    width: 100px;
+    float: right;
+    border-radius: 20px;
+}
+.ic_setting
+{
+    float:right;
+    margin:-20px;
+    margin-right:-40px;
+}
+
+.header4 
+{
+    background-color: darkgrey;
+}
