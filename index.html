@@ -351,6 +351,7 @@
 
 
     <section class="mbr-gallery mbr-slider-carousel cid-sn6XE8MPnG" id="gallery2-i">
+        <h1 class="mbr-section-title align-center mbr-black pb-3 mbr-bold mbr-fonts-style display-2" style="padding-top:20px;">Gallery</h1>
         <div class="container">
             <div>
                 <!-- Filter -->
@@ -567,8 +568,8 @@
                     <p class="mbr-author-desc mbr-fonts-style display-7"></p>
                 </div>
 
-                <div class="mbr-figure pl-lg-5" style="width: 130%;">
-                    <img src="assets/images/services-1-759x1024.jpg" alt="" title="">
+                <div class="mbr-figure pl-lg-5" style="width: 80%;">
+                    <img src="assets/images/services-1-759x1024.jpg" alt="" title="" style="width:80%">
                 </div>
             </div>
         </div>
@@ -714,6 +715,36 @@
         </div>
     </section>
 
+      <!-- The Modal -->
+      <div class="modal" id="settingModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalTitle">Setting</h4>
+                    <button type="button" class="closeModal close">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div id="modalContent">
+                        <label for="id_difficulty">Difficulty</label><br>
+                        <label for="id_easy">Easy</label>
+                        <input type="text" style="width: 80px;" name="easy_range_1" id="easy_range_1">
+                        <input type="text" style="width: 80px;" name="easy_range_2" id="easy_range_2">
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-outline-secondary closeModal" value="Cancel"></inpu, 3000t>
+                    <input type="button" class="btn btn-outline-primary closeModal" value="Save" onclick="save()"></inpu, 3000t>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>

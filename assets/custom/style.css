@@ -32,3 +32,8 @@
 {
     background-color: darkgrey;
 }
+
+#settingModal
+{
+    height: 600px;
+}
