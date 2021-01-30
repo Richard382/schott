@@ -321,26 +321,27 @@
     <div class="image-container col-lg-7"  id="start_form_panel" >
                     <div class="form" id="start_form">
                         <form action="index.html">
-                            <a class="ic_setting" onclick="showSettingModal()">
-                                <img src="assets/images/setting.png" style="width:32px;">
-                            </a>
-                            <p>Please select your difficulty:</p>
-                            <label class="container">Easy
-                                <input type="radio" class="radio" checked="checked" name="radio">
+                            <p>
+                                Select Time Limit:</p>
+                            <label class="container">15 min
+                                <input type="radio" class = "radio" checked="checked" name="radio">
                                 <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Medium
+                              </label>
+                              <label class="container">30 min
                                 <input type="radio" name="radio">
                                 <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Hard
+                              </label>
+                              <label class="container">45 min
                                 <input type="radio" name="radio">
                                 <span class="checkmark"></span>
-                            </label>
-                           
+                              </label>
+                              <label>Select Words:<br>
+                                <input type="range" name="weight" id="range_weight" value="5" min="15" max="75" oninput="range_weight_disp.value = range_weight.value">
+                            <output  id="range_weight_disp"></output></label></label>
                             <br>
-                            <input type="submit" class="button btn-start" value="start" />
+                              <input type="submit" class="button btn-start" value="start" />
                         </form>
+                     
 
                     </div>
                 </div> <!-- end of col -->
